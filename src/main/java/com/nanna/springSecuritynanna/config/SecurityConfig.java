@@ -35,7 +35,7 @@ public class SecurityConfig {
     @Bean
     public UserDetailsService userDetailsService() {
     
-    
+//    userdetailsservice implementation
         UserDetails normalUser = User
                 .withUsername ( "nanna" )
                 .password ( passwordEncoder () .encode ( "nanna32100" ))
